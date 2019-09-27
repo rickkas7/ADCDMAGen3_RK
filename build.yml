@@ -6,7 +6,7 @@
   argon: [latest]
 - build: examples/03-one-shot-freq-counter
   argon: [latest]
-- build: examples/04-continuous-counter
+- build: examples/04-continuous-freq-counter
   argon: [latest]
 - build: examples/05-dtmf
   argon: [latest]

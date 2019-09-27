@@ -105,7 +105,7 @@ The default is to use the NFC timer, which means you can't use NFC at the same t
 
 ## API documentation
 
-The full API documentation can be found [here](https://rickkkas7.github.io/ADCDMAGen3_RK/index.html).
+The full API documentation can be found [here](https://rickkas7.github.io/ADCDMAGen3_RK/index.html).
 
 ## Examples
 
