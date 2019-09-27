@@ -1,0 +1,16 @@
+- build: examples/01-simple
+  argon: [0.9.0, latest]
+  boron: [latest]
+  xenon: [latest]
+- build: examples/02-audio-over-tcp
+  argon: [latest]
+- build: examples/03-one-shot-freq-counter
+  argon: [latest]
+- build: examples/04-continuous-counter
+  argon: [latest]
+- build: examples/05-dtmf
+  argon: [latest]
+- build: examples/06-dtmf-two-channel
+  argon: [latest]
+- build: examples/07-mixed
+  argon: [latest]
