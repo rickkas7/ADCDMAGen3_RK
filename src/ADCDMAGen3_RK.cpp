@@ -15,6 +15,17 @@ static const nrfx_saadc_config_t defaultSaadcConfig = {
     .interrupt_priority = NRFX_SAADC_CONFIG_IRQ_PRIORITY
 };
 
+#if SYSTEM_VERSION >= SYSTEM_VERSION_v200
+nrf_nvic_state_t nrf_nvic_state = {};
+
+void app_util_critical_region_enter(uint8_t* nested) {
+    (void)sd_nvic_critical_region_enter(nested);
+}
+
+void app_util_critical_region_exit(uint8_t nested) {
+    (void)sd_nvic_critical_region_exit(nested);
+}
+#endif
 
 ADCDMAGen3::ADCDMAGen3() {
 	instance = this;
