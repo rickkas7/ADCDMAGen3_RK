@@ -205,7 +205,14 @@ It's pretty close (97000 vs. 97070 Hz.)!
 
 ## Version History
 
-- 0.0.1 (2019-09-27) Initial version. There may be bugs still.
+### 0.0.2 (2021-07-02)
+
+- Added compatibility with Device OS 2.0.0 and later.
+
+
+### 0.0.1 (2019-09-27) 
+
+- Initial version. There may be bugs still.
 
 
 
